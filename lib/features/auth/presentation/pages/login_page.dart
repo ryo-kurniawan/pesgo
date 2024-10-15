@@ -45,8 +45,9 @@ class _LoginPageState extends State<LoginPage> {
             SizedBox(
               height: 260.0,
               child: Center(
-                child: Assets.images.logoWhite.image(height: 55.0),
-              ),
+                  child: ClipRRect(
+                      child:
+                          Image.asset('assets/images/ata.png', height: 100))),
             ),
             Align(
               alignment: Alignment.bottomCenter,
